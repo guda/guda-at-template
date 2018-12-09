@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite">
+    <!--
+    <listeners>
+        <listener class-name="com.soc.util.Listener"/>
+        <listener class-name="com.soc.util.MyFuzzyListener"/>
+    </listeners>
+    -->
+    <test name="Test Suite">
+        <classes>
+            <!--
+            -->
+            <class name="com.guda.ui.google_test.tests.GoogleExampleIT"/>
+        </classes>
+    </test>
+</suite>
